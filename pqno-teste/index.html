@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto login </title>
+    <link rel="stylesheet" href="/pqno-teste/style.css">
+</head>
+<body>
+        <main class="container">
+            <section class="login">
+                <h1>Faça o seu login</h1>
+
+                <form action="login.php" method="get">
+
+                    <div class="mail"><label for="iemail"> Seu e-mail"
+                    </label>
+                    <input type="email" name="email" id="iemail" required maxlength="1000"> 
+                </div>
+                <div class="senha">
+                    <label for="isen">Sua senha"</label>
+                    <input type="password" name="senha" id="isen" required maxlength="30" minlength="8">
+                </div>
+
+                <div class="check">
+                    <input type="checkbox" name="lembrar" id="ilembrar">
+                    <label for="ilembrar">Lembrar-me</label>
+                </div>
+
+                <div class="enviar">
+                    <input type="submit" value="ENTRAR">
+                </div>
+            
+                    
+                    <p>Esqueceu a sua senha? <a href="#">Clique aqui</a>
+                    
+                    </p>
+            </form>
+            </section>
+        </main>
+</body>
+</html>
